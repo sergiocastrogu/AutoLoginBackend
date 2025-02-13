@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35728.132 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutLogin", "AutLogin\AutLogin.csproj", "{7B8AAABA-12F2-4A87-AB2C-45FA45D1FE25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutLogin.Tests", "AutLogin.Tests\AutLogin.Tests.csproj", "{F30601BC-7012-4067-96EC-9D9770668571}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{8CC91A1C-2C24-458B-9EDB-19E7979ECC62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{181A7156-1C65-4361-A746-E510C2CF560C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{EA8E68DA-0AFB-4AC0-B3DB-46C70E83BC6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLogin.Application", "AutoLogin.Application\AutoLogin.Application.csproj", "{EBB36F93-6E46-4D02-8322-40760D9D9DFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLogin.Domain", "AutoLogin.Domain\AutoLogin.Domain.csproj", "{8524F383-EF7B-4D44-9886-180D56AD5A75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLogin.Persistence", "AutoLogin.Persistence\AutoLogin.Persistence.csproj", "{B6375165-804B-4C92-92D8-32AFDC828AF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B8AAABA-12F2-4A87-AB2C-45FA45D1FE25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B8AAABA-12F2-4A87-AB2C-45FA45D1FE25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B8AAABA-12F2-4A87-AB2C-45FA45D1FE25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B8AAABA-12F2-4A87-AB2C-45FA45D1FE25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F30601BC-7012-4067-96EC-9D9770668571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30601BC-7012-4067-96EC-9D9770668571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30601BC-7012-4067-96EC-9D9770668571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F30601BC-7012-4067-96EC-9D9770668571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB36F93-6E46-4D02-8322-40760D9D9DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB36F93-6E46-4D02-8322-40760D9D9DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB36F93-6E46-4D02-8322-40760D9D9DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB36F93-6E46-4D02-8322-40760D9D9DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8524F383-EF7B-4D44-9886-180D56AD5A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8524F383-EF7B-4D44-9886-180D56AD5A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8524F383-EF7B-4D44-9886-180D56AD5A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8524F383-EF7B-4D44-9886-180D56AD5A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6375165-804B-4C92-92D8-32AFDC828AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6375165-804B-4C92-92D8-32AFDC828AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6375165-804B-4C92-92D8-32AFDC828AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6375165-804B-4C92-92D8-32AFDC828AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7B8AAABA-12F2-4A87-AB2C-45FA45D1FE25} = {8CC91A1C-2C24-458B-9EDB-19E7979ECC62}
+		{F30601BC-7012-4067-96EC-9D9770668571} = {8CC91A1C-2C24-458B-9EDB-19E7979ECC62}
+		{EBB36F93-6E46-4D02-8322-40760D9D9DFF} = {181A7156-1C65-4361-A746-E510C2CF560C}
+		{8524F383-EF7B-4D44-9886-180D56AD5A75} = {181A7156-1C65-4361-A746-E510C2CF560C}
+		{B6375165-804B-4C92-92D8-32AFDC828AF9} = {EA8E68DA-0AFB-4AC0-B3DB-46C70E83BC6F}
+	EndGlobalSection
+EndGlobal

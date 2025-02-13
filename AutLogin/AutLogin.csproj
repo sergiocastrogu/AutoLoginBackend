@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+    <AWSProjectType>Lambda</AWSProjectType>
+    <!-- This property makes the build directory similar to a publish directory and helps the AWS .NET Lambda Mock Test Tool find project dependencies. -->
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <!-- Generate ready to run images during publishing to improve cold start time. -->
+    <PublishReadyToRun>true</PublishReadyToRun>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Amazon.Lambda.AspNetCoreServer" Version="7.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.13" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AutoLogin.Application\AutoLogin.Application.csproj" />
+    <ProjectReference Include="..\AutoLogin.Domain\AutoLogin.Domain.csproj" />
+    <ProjectReference Include="..\AutoLogin.Persistence\AutoLogin.Persistence.csproj" />
+  </ItemGroup>
+</Project>
